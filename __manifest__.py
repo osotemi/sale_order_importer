@@ -15,7 +15,7 @@
     'website': "https://www.linkedin.com/in/osotemi",
 
     'category': 'Sales',
-    'version': '0.1',
+    'version': '12.0.0.1',
 
     # any module necessary for this one to work correctly
     'depends': [
@@ -25,7 +25,8 @@
 
     # always loaded
     'data': [
-        'wizard/sale_order_confirmation_files.xml'
+        'wizard/sale_order_json_importer_views.xml',
+        'wizard/sale_order_confirmation_files_views.xml'
     ],
     # only loaded in demonstration mode
     #'demo': [
